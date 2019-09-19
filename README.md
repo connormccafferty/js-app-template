@@ -6,32 +6,36 @@ A simple unopinionated Hadouken application template. The purpose of this reposi
 
 #### [Hadouken download and install](https://github.com/hadoukenio/js-adapter)
 
-* Automates the downloading and launching of the Hadouken Runtime.
+-   Automates the downloading and launching of the Hadouken Runtime.
 
 #### Development server
 
-* [Live-server](https://www.npmjs.com/package/live-server) with built-in live reloading after changes to files.
+-   [Live-server](https://www.npmjs.com/package/live-server) with built-in live reloading after changes to files.
 
 #### Basic HTML/Javascript Template
 
-* HTML 5 and ES6 Template with Hadouken integration.
+-   HTML 5 and ES6 Template with Hadouken integration.
 
 #### Service Worker
 
-* Uses the [network and cache](https://serviceworke.rs/strategy-network-or-cache.html) recipe found on the [Mozilla Service Worker Cookbook](https://serviceworke.rs/) to implement offline browsing.
+-   Uses the [network and cache](https://serviceworke.rs/strategy-network-or-cache.html) recipe found on the [Mozilla Service Worker Cookbook](https://serviceworke.rs/) to implement offline browsing.
 
 #### [Visual Studio Code](https://code.visualstudio.com/) integration, thanks to @jcarter
 
-* Attach to debugger for in-editor break points, call stacks, and an interactive console
-* Hadouken configuration ( `app.json` ) smart completion based on available parameters
-* Hadouken API smart completions based on variable types and function definitions
+-   Attach to debugger for in-editor break points, call stacks, and an interactive console
+-   Hadouken configuration ( `app.json` ) smart completion based on available parameters
+-   Hadouken API smart completions based on variable types and function definitions
+
+#### Feature Branches
+
+-   [Channels](https://github.com/connormccafferty/js-app-template/tree/feature/channels)
 
 ### How to use this:
 
-* Clone this repository: `git clone https://github.com/HadoukenIO/app-template`
-* Install the dependencies: `cd app-template` & `npm install`
-* Start the live-server and launch the application: `npm start`
-* Add your Javascript code to `main.js` and your HTML to `index.html`
+-   Clone this repository: `git clone https://github.com/HadoukenIO/app-template`
+-   Install the dependencies: `cd app-template` & `npm install`
+-   Start the live-server and launch the application: `npm start`
+-   Add your Javascript code to `main.js` and your HTML to `index.html`
 
 ## Contributing
 
@@ -43,6 +47,7 @@ A simple unopinionated Hadouken application template. The purpose of this reposi
 6. Create a new Pull Request
 
 ## License
+
 The code in this repository is distributed under the Apache License, Version 2.0.
 
 However, if you run this code, it may call on the OpenFin RVM or OpenFin Runtime, which are covered by OpenFin's Developer, Community, and Enterprise licenses. You can learn more about OpenFin licensing at the links listed below or just email us at support@openfin.co with questions.
